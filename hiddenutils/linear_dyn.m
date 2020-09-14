@@ -8,9 +8,7 @@
 %
 % usage: [offset] = linear_dyn(scalefactor)
 
-% Brian Birge
-% Rev 1.0
-% 8/23/04
+
 
 function out = linear_dyn(sf)
  % this keeps the same start time for each run of the calling function 
