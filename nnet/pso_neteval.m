@@ -7,9 +7,7 @@
 %       M is particle index
 %       N is weight & bias index
 
-% Brian Birge
-% Rev 2.0
-% 3/8/06
+
 
 function cost = pso_neteval(x)
   for i=1:length(x(:,1)) % # of particles passed, because of simfuncname we can't vectorize
