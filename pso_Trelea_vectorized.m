@@ -87,9 +87,7 @@
 %
 % Example:  out=pso_Trelea_vectorized('f6',2)
 
-% Brian Birge
-% Rev 3.3
-% 2/18/06
+
 
 function [OUT,varargout]=pso_Trelea_vectorized(functname,D,varargin)
 
