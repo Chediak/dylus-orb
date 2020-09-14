@@ -1,9 +1,5 @@
 % tripod.m
-% 2D tripod function, described by Clerc...
-% http://clerc.maurice.free.fr/pso/Semi-continuous_challenge/Semi-continuous_challenge.htm
-%
-% used to test optimization/global minimization problems 
-% in Clerc's "Semi-continuous challenge"
+
 %
 % f(x)= [ p(x2)*(1+p(x1)) ...
 %        + abs(x1 + 50*p(x2)*(1-2*p(x1)))...
