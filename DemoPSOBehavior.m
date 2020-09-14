@@ -5,9 +5,7 @@
 %
 % on the plots, blue is current position, green is Pbest, and red is Gbest
 
-% Brian Birge
-% Rev 3.0
-% 2/27/06
+
 
 clear all
 close all
