@@ -11,9 +11,6 @@
 % example: cost = DeJong_f3([1,2;3,4;5,6])
 % note minimum @ x= -Inf or whatever lower bound you've chosen
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
 
 function [out]=DeJong_f3(in)
  out = sum( floor(in) , 2);
