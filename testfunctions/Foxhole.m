@@ -12,9 +12,6 @@
 % example: cost = Foxhole([1,2;3,4])
 % note: known minimum =0 @ (-32,-32) unless you change 'a' in the function
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
 function [out]=Foxhole(in)
  x=in(:,1);
  y=in(:,2);
