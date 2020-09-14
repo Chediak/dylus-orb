@@ -17,9 +17,6 @@
 % example: cost = DeJong_f2([1,2;3,4;5,6])
 % note minimum =0 @ (1,1)
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
 function [out]=DeJong_f2(in)
  
  x= in(:,1);
