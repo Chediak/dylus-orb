@@ -15,9 +15,7 @@
 % example: cost = NDparabola([1,2;5,6;0,-50])
 % note: known minimum =0 @ all x = 0
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
+
 
 function [out]=NDparabola(in)
  out = sum(in.^2, 2);
