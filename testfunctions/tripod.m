@@ -19,9 +19,6 @@
 % example: cost = tripod([1,2;5,6;0,-50])
 % note: known minimum =0 @ (0,-50)
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
 
 function [out]=tripod(in)
 
