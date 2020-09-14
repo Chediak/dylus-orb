@@ -1,9 +1,4 @@
-% goplotpso4demo.m
-% simple graphing prog for use with PSO demo script
 
-% Brian Birge
-% Rev 1.0
-% 1/1/3
 
 % setup figure
 clf
