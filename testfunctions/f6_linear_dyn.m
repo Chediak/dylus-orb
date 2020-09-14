@@ -4,9 +4,7 @@
 %
 % This version moves the minimum linearly along a 45 deg angle in x,y space
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
+
 
 function [out]=f6_linear_dyn(in)
  % parse input
