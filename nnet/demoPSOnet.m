@@ -1,15 +1,4 @@
-% demoPSOnet.m
-% script to show a quick, uncomplicated demo of using trainpso for training
-% a neural net
-%
-% tries to build a feedforward neural net to approximate a noisy increaing 
-% sin function
-% only uses 1/2 the data for training, to show generalization with all data at
-% end
 
-% Brian Birge
-% Rev 1.0
-% 3/14/06
 
 clear all
 close all
