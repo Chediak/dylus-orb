@@ -15,9 +15,7 @@
 %
 % example: cost = ackley([1,2,3;4,5,6])
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
+
 
 function [out]=ackley(in)
 
