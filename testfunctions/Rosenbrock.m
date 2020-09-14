@@ -16,9 +16,7 @@
 % example: cost = Rosenbrock([1,2;5,6;0,-50])
 % note: known minimum =0 @ all x = 1
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
+
 function [out]=Rosenbrock(in)
  
  x0=in(:,1:end-1);
