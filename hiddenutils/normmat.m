@@ -1,41 +1,5 @@
 function [out,varargout]=normmat(x,newminmax,flag)
-% normmat.m
-% takes a matrix and reformats the data to fit between a new range
-% 
-% Usage:
-%    [xprime,mins,maxs]=normmat(x,range,method)
-%
-% Inputs:
-%     x - matrix to reformat of dimension MxN
-%     range - a vector or matrix specifying minimum and maximum values for the new matrix
-%         for method = 0, range is a 2 element row vector of [min,max]
-%         for method = 1, range is a 2 row matrix with same column size as 
-%                         input matrix with format of [min1,min2,...minN;
-%                                                      max1,max2,...maxM];
-%         for method = 2, range is a 2 column matrix with same row size as
-%                         input matrix with format of [min1,max1;
-%                                                      min2,max2;
-%                                                      ... , ...;
-%                                                      minM,maxM];
-%             alternatively for method 1 and 2, can input just a 2 element vector as in method 0
-%             this will just apply the same min/max across each column or row respectively
-%     method - a scalar flag with the following function
-%         = 1, normalize each column of the input matrix separately
-%         = 2, normalize each row of the input matrix separately
-%         = 0, normalize matrix globally
-% Outputs:
-%     xprime - new matrix normalized per method
-%     mins,maxs - optional outputs return the min and max vectors of the original matrix x
-%         used for recovering original matrix from xprime
-%
-% example: x = [-10,3,0;2,4.1,-7;3.4,1,0.01]
-%          [xprime,mins,maxs]=normmat(x,[0,10],0)
-
-% Brian Birge
-% Rev 2.1
-% 3/16/06 - changed name of function to avoid same name in robust control
-% toolbox
-%--------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 if flag==0
 
   a=min(min((x)));
