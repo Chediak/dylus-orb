@@ -16,9 +16,7 @@
 % example: cost = DeJong_f4([1,2;3,4;5,6])
 % note minimum =0 @ x= all zeros
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
+
 function [out]=DeJong_f4(in)
  persistent D tlen d
 
