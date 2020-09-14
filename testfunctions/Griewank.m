@@ -17,9 +17,6 @@
 % example: cost = Griewank([1,2;5,6;0,-50])
 % note: known minimum =0 @ all x = 100
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
 function [out]=Griewank(in)
  persistent d D tlen sqrtd
 
