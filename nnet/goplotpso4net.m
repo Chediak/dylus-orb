@@ -2,9 +2,6 @@
 % specialized graphing module for neural net training using PSO
 % used in conjunction with trainpso
 
-% Brian Birge
-% Rev 1.0
-% 3/10/06
 
 % setup figure, change this for your own machine
  clf
