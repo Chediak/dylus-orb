@@ -6,9 +6,6 @@
 % so it shares all the same variables, be careful with variable names
 % when making your own plugin
 
-% Brian Birge
-% Rev 2.0
-% 3/1/06
 
 % setup figure, change this for your own machine
  clf
