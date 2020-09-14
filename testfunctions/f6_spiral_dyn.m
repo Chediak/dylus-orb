@@ -12,9 +12,7 @@
 %    +(sin^2(sqrt((x-x_center)^2+(y-y_center)^2))-0.5) ...
 %    /((1+0.01*((x-x_center)^2+(y-y_center)^2))^2)
 
-% Brian Birge
-% Rev 1.0
-% 9/12/04
+
 
 function [out]=f6_spiral_dyn(in)
  % parse input
